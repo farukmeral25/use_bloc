@@ -1,9 +1,9 @@
 abstract class GenericEvent {}
 
-class InitializeEvent<T> implements GenericEvent {
+class InitializeEvent implements GenericEvent {
   InitializeEvent();
 }
 
-class RefreshEvent<T> implements GenericEvent {
+class RefreshEvent implements GenericEvent {
   RefreshEvent();
 }
